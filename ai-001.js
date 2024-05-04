@@ -378,268 +378,277 @@ export default [
   }
   ,
   {
-    question: '<br class="markdown_return"><p>L2TP会话的建立是通过()完成的</p>',
-    answer: "D",
-    options: [
-      { Key: "A", Value: "<p>TCP报文的 3 次握手</p>" },
-      { Key: "B", Value: "<p>UDP报文的 3 次握手</p>" },
-      { Key: "C", Value: "<p>TCP报文的 4 次握手</p>" },
-      { Key: "D", Value: "<p>UDP报文的 4 次握手</p>" },
+    "question": "<br class=\"markdown_return\"><p>L2TP会话的建立是通过()完成的</p>",
+    "answer": "D",
+    "options": [
+      { "Key": "A", "Value": "<p>TCP报文的 3 次握手</p>" },
+      { "Key": "B", "Value": "<p>UDP报文的 3 次握手</p>" },
+      { "Key": "C", "Value": "<p>TCP报文的 4 次握手</p>" },
+      { "Key": "D", "Value": "<p>UDP报文的 4 次握手</p>" }
     ],
-    analysis: "<p>OK</p>",
-  },
+    "analysis": "<p>L2TP会话的建立是通过UDP报文的 4 次握手完成的。</p>"
+  }
+  ,
   {
-    question: '<br class="markdown_return">下面有关L2TP配置说法正确的有:',
-    answer: "C",
-    options: [
+    "question": "<br class=\"markdown_return\">下面有关L2TP配置说法正确的有:",
+    "answer": "C",
+    "options": [
       {
-        Key: "A",
-        Value: "可以配置完整的用户名或者特定的域名作为触发 L2TP发起连接的条件",
+        "Key": "A",
+        "Value": "可以配置完整的用户名或者特定的域名作为触发 L2TP发起连接的条件"
       },
       {
-        Key: "B",
-        Value:
-          "当使用IPpool 命令给对端分配地址时，应确保IPpool 地址池里的地址和虚模板接口地址在同一网段内",
+        "Key": "B",
+        "Value": "当使用IPpool 命令给对端分配地址时，应确保IPpool 地址池里的地址和虚模板接口地址在同一网段内"
       },
       {
-        Key: "C",
-        Value:
-          "当 L2TP group组号为 0，且不指定通道对端名 remote-name 时，发起 L2TP连接时，忽略对端用户名",
-      },
-      { Key: "D", Value: "L2TP默认配置情况下启用了隧道验证，且验证密码为空" },
-    ],
-    analysis: "",
-  },
-  {
-    question: "ACL（访问控制列表）的类型包括有（）",
-    answer: "BCD",
-    options: [
-      { Key: "A", Value: "七层ACL" },
-      { Key: "B", Value: "二层ACL" },
-      { Key: "C", Value: "高级ACL" },
-      { Key: "D", Value: "基本ACL " },
-    ],
-    analysis: "",
-  },
-  {
-    question: "以下关于HWTACACS协议与RADIUS协议说法正确的是()",
-    answer: "BD",
-    options: [
-      { Key: "A", Value: "<p>HWTACACS 对报文主体全部进行加密</p>" },
-      { Key: "B", Value: "<p>HWTACACS 采用TCP传输，RADIUS用UDP</p>" },
-      {
-        Key: "C",
-        Value: "<p>HWTACACS和RADIUS都支持对设备的配置命令进行授权使用</p>",
-      },
-      { Key: "D", Value: "<p>RADIUS只对认证报文中的密码字段进行加密</p>" },
-    ],
-    analysis:
-      "<p>A选项表述有问题，应该是除了HWTACACS报文头，对报文主体全部进行加密。</p>",
-  },
-  {
-    question: "H3C NGFW的特征库包括以下哪些？",
-    answer: "ACD",
-    options: [
-      { Key: "A", Value: "<p>URL分类特征库</p>" },
-      { Key: "B", Value: "<p>ARP特征库</p>" },
-      { Key: "C", Value: "<p>防病毒特征库</p>" },
-      { Key: "D", Value: "<p>IPS特征</p>" },
-    ],
-    analysis:
-      "<p>B选项没有ARP特征库说法，除非写成APR特征库或者ACG应用特征库</p>",
-  },
-  {
-    question: '<br class="markdown_return">IPsec 的优点有',
-    answer: "BCD",
-    options: [
-      { Key: "A", Value: "抗DDoS（disributedDeny of sevice）" },
-      { Key: "B", Value: "身份验证（data authentication）" },
-      { Key: "C", Value: "参数完整性（dataIntegrity）" },
-      { Key: "D", Value: "数据机密性（Confidenttiality） " },
-    ],
-    analysis: "",
-  },
-  {
-    question:
-      '<br class="markdown_return">安全联盟security association，通过以下哪些元素来唯一标识？',
-    answer: "ABD",
-    options: [
-      { Key: "A", Value: "IP目的地址" },
-      { Key: "B", Value: "安全协议号" },
-      { Key: "C", Value: "IP源地址" },
-      { Key: "D", Value: "安全参数索引（SPI） " },
-    ],
-    analysis: "",
-  },
-  {
-    question: '<br class="markdown_return"><p>H3C 防火墙缺省的安全域包括</p>',
-    answer: "ABCDE",
-    options: [
-      { Key: "A", Value: "<p>DMZ</p>" },
-      { Key: "B", Value: "<p>Management</p>" },
-      { Key: "C", Value: "<p>untrust</p>" },
-      { Key: "D", Value: "<p>local</p>" },
-      { Key: "E", Value: "trust" },
-    ],
-    analysis: "",
-  },
-  {
-    question: '<br class="markdown_return">NAT 的实现方式包括',
-    answer: "ABCD",
-    options: [
-      { Key: "A", Value: " easyIP方式" },
-      { Key: "B", Value: "Nat server方式" },
-      { Key: "C", Value: "PAT方式" },
-      { Key: "D", Value: "No-pat方式" },
-    ],
-    analysis: "",
-  },
-  {
-    question: '<br class="markdown_return">用户AAA授权方式包括什么？',
-    answer: "BCD",
-    options: [
-      { Key: "A", Value: " 管理员授权" },
-      { Key: "B", Value: " 远端授权" },
-      { Key: "C", Value: " 本地授权" },
-      { Key: "D", Value: " 不授权" },
-    ],
-    analysis: "",
-  },
-  {
-    question:
-      '<br class="markdown_return">Pat方式的nat主要对数据包的（）信息进行转换',
-    answer: "BC",
-    options: [
-      { Key: "A", Value: "应用层" },
-      { Key: "B", Value: "传输层" },
-      { Key: "C", Value: "网络层" },
-      { Key: "D", Value: "数据链路层" },
-    ],
-    analysis: "",
-  },
-  {
-    question: '<br class="markdown_return">IPSec 协议支持哪些封装模式',
-    answer: "AD",
-    options: [
-      { Key: "A", Value: "隧道模式" },
-      { Key: "B", Value: "交换模式" },
-      { Key: "C", Value: "路由模式" },
-      { Key: "D", Value: "传输模式" },
-    ],
-    analysis: "",
-  },
-  {
-    question: '<br class="markdown_return">下面关于H3C ACG的说话正确的有',
-    answer: "AB",
-    options: [
-      { Key: "A", Value: "ACG产品支持微信认证，短信认证等功能" },
-      {
-        Key: "B",
-        Value:
-          "ACG产品支持旁路部署，在系统管理部署方式处将接收流量的接口打钩，并将流量镜像到该接口",
+        "Key": "C",
+        "Value": "当 L2TP group组号为 0，且不指定通道对端名 remote-name 时，发起 L2TP连接时，忽略对端用户名"
       },
       {
-        Key: "C",
-        Value: "ACG产品不支持VRG功能，因此无法可作为MCE设备和MPLS网络对接",
+        "Key": "D",
+        "Value": "L2TP默认配置情况下启用了隧道验证，且验证密码为空"
+      }
+    ],
+    "analysis": "选项A错误，L2TP配置中通常不会使用完整的用户名或特定域名作为触发L2TP发起连接的条件，而是使用预先配置的L2TP组号。\n选项B错误，与L2TP配置无关，IP地址池和虚拟模板接口地址的网段可以不同。\n选项D错误，L2TP默认配置情况下是不启用隧道验证的，验证密码也不为空。\n因此，正确答案是选项C，当L2TP组号为0且不指定通道对端名时，发起L2TP连接时会忽略对端用户名。"
+  }
+  ,
+  {
+    "question": "ACL（访问控制列表）的类型包括有（）",
+    "answer": "BCD",
+    "options": [
+      { "Key": "A", "Value": "七层ACL" },
+      { "Key": "B", "Value": "二层ACL" },
+      { "Key": "C", "Value": "高级ACL" },
+      { "Key": "D", "Value": "基本ACL" }
+    ],
+    "analysis": "ACL（访问控制列表）是用于控制网络数据包进出路由器接口的一种方法。其类型包括：\n- 二层ACL：基于数据链路层信息（如MAC地址）进行过滤。\n- 高级ACL：基于网络层信息（如IP地址、协议类型）进行过滤。\n- 基本ACL：一种简单的ACL类型，通常只能根据源IP地址进行过滤。\n因此，正确答案是BCD。"
+  }
+  ,
+  {
+    "question": "以下关于HWTACACS协议与RADIUS协议说法正确的是()",
+    "answer": "BD",
+    "options": [
+      { "Key": "A", "Value": "<p>HWTACACS 对报文主体全部进行加密</p>" },
+      { "Key": "B", "Value": "<p>HWTACACS 采用TCP传输，RADIUS用UDP</p>" },
+      {
+        "Key": "C",
+        "Value": "<p>HWTACACS和RADIUS都支持对设备的配置命令进行授权使用</p>"
+      },
+      { "Key": "D", "Value": "<p>RADIUS只对认证报文中的密码字段进行加密</p>" }
+    ],
+    "analysis": "<p>A选项表述有问题，应该是除了HWTACACS报文头，对报文主体全部进行加密。</p>"
+  }
+  ,
+  {
+    "question": "H3C NGFW的特征库包括以下哪些？",
+    "answer": "ACD",
+    "options": [
+      { "Key": "A", "Value": "<p>URL分类特征库</p>" },
+      { "Key": "B", "Value": "<p>ARP特征库</p>" },
+      { "Key": "C", "Value": "<p>防病毒特征库</p>" },
+      { "Key": "D", "Value": "<p>IPS特征</p>" }
+    ],
+    "analysis": "<p>特征库是NGFW识别网络流量和威胁的重要组成部分。选项A描述了URL分类特征库，用于识别和过滤网络流量中的URL。选项B描述的ARP特征库与NGFW的特征库无关。选项C描述了防病毒特征库，用于检测和阻止网络中的恶意软件。选项D描述的是IPS特征，用于检测和防御网络中的入侵行为。</p>"
+  }
+  ,
+  {
+    "question": "<br class=\"markdown_return\">IPsec 的优点有",
+    "answer": "BCD",
+    "options": [
+      { "Key": "A", "Value": "抗DDoS（disributedDeny of sevice）" },
+      { "Key": "B", "Value": "身份验证（data authentication）" },
+      { "Key": "C", "Value": "参数完整性（dataIntegrity）" },
+      { "Key": "D", "Value": "数据机密性（Confidenttiality） " }
+    ],
+    "analysis": "IPsec是一种网络协议套件，提供了数据传输的安全性。选项A描述的抗DDoS功能不是IPsec的主要优点，而是一种针对分布式拒绝服务攻击的防御措施，不属于IPsec协议的特性。选项B描述的身份验证、选项C描述的参数完整性、以及选项D描述的数据机密性是IPsec协议的核心优点，它们分别确保了数据传输的身份验证、完整性和机密性。因此，选项A是不正确的。"
+  }
+  ,
+  {
+    "question": "<br class=\"markdown_return\">安全联盟security association，通过以下哪些元素来唯一标识？",
+    "answer": "ABD",
+    "options": [
+      { "Key": "A", "Value": "IP目的地址" },
+      { "Key": "B", "Value": "安全协议号" },
+      { "Key": "C", "Value": "IP源地址" },
+      { "Key": "D", "Value": "安全参数索引（SPI） " }
+    ],
+    "analysis": "安全联盟（SA）是在IPsec中用于标识安全通信的一种机制。安全联盟通过以下元素来唯一标识：\n- IP目的地址（选项A）：指定通信的目的地。\n- 安全协议号（选项B）：确定使用的安全协议，例如AH或ESP。\n- 安全参数索引（SPI）（选项D）：用于在通信双方之间唯一标识安全联盟的标识符。\nIP源地址（选项C）通常不是用于标识安全联盟的元素，因此不属于安全联盟的唯一标识元素。因此，正确选项为ABD。"
+  }
+  ,
+  {
+    "question": "<br class=\"markdown_return\"><p>H3C 防火墙缺省的安全域包括</p>",
+    "answer": "ABCDE",
+    "options": [
+      { "Key": "A", "Value": "<p>DMZ</p>" },
+      { "Key": "B", "Value": "<p>Management</p>" },
+      { "Key": "C", "Value": "<p>untrust</p>" },
+      { "Key": "D", "Value": "<p>local</p>" },
+      { "Key": "E", "Value": "trust" }
+    ],
+    "analysis": "<p>H3C 防火墙的缺省安全域包括：</p>\n- DMZ：用于放置公共服务器，如Web服务器、邮件服务器等，与外部网络隔离。\n- Management：用于管理防火墙设备的安全域。\n- untrust：用于连接到不可信网络的安全域。\n- local：用于本地流量的安全域。\n- trust：用于信任的内部网络的安全域。\n因此，缺省的安全域包括ABCDE。"
+  }
+  ,
+  {
+    "question": "<br class=\"markdown_return\">NAT 的实现方式包括",
+    "answer": "ABCD",
+    "options": [
+      { "Key": "A", "Value": " easyIP方式" },
+      { "Key": "B", "Value": "Nat server方式" },
+      { "Key": "C", "Value": "PAT方式" },
+      { "Key": "D", "Value": "No-pat方式" }
+    ],
+    "analysis": "NAT（Network Address Translation）的实现方式包括：\n- easyIP方式：将内部网络的私有IP地址映射到公网IP地址的一种方式。\n- Nat server方式：在NAT设备上配置NAT地址池，将内部私有IP地址映射到公网IP地址。\n- PAT（Port Address Translation）方式：通过修改源IP地址和源端口或目标IP地址和目标端口来实现多个内部IP地址与一个公网IP地址之间的映射。\n- No-pat方式：与PAT方式相对应，表示不使用端口地址转换。"
+  }
+  ,
+  {
+    "question": "<br class=\"markdown_return\">用户AAA授权方式包括什么？",
+    "answer": "BCD",
+    "options": [
+      { "Key": "A", "Value": "管理员授权" },
+      { "Key": "B", "Value": "远端授权" },
+      { "Key": "C", "Value": "本地授权" },
+      { "Key": "D", "Value": "不授权" }
+    ],
+    "analysis": "用户AAA（认证、授权、审计）授权方式包括：\n- 远端授权：远程服务器对用户进行授权。\n- 本地授权：本地设备对用户进行授权。\n- 不授权：不对用户进行授权，可能限制其访问权限。"
+  }
+  ,
+  {
+    "question": "<br class=\"markdown_return\">Pat方式的nat主要对数据包的（）信息进行转换",
+    "answer": "BC",
+    "options": [
+      { "Key": "A", "Value": "应用层" },
+      { "Key": "B", "Value": "传输层" },
+      { "Key": "C", "Value": "网络层" },
+      { "Key": "D", "Value": "数据链路层" }
+    ],
+    "analysis": "Pat（端口地址转换）方式的NAT主要对数据包的传输层和网络层信息进行转换。传输层信息包括TCP/UDP端口号，而网络层信息包括IP地址。"
+  }
+  ,
+  {
+    "question": "<br class=\"markdown_return\">IPSec 协议支持哪些封装模式",
+    "answer": "AD",
+    "options": [
+      { "Key": "A", "Value": "隧道模式" },
+      { "Key": "B", "Value": "交换模式" },
+      { "Key": "C", "Value": "路由模式" },
+      { "Key": "D", "Value": "传输模式" }
+    ],
+    "analysis": "IPSec协议支持隧道模式（Tunnel Mode）和传输模式（Transport Mode）。隧道模式用于对整个IP数据报进行封装，适用于网关到网关的安全通信；传输模式仅对IP数据报的数据部分进行封装，适用于主机到主机的安全通信。交换模式和路由模式不是IPSec的封装模式。"
+  }
+  ,
+  {
+    "question": "<br class=\"markdown_return\">下面关于H3C ACG的说话正确的有",
+    "answer": "AB",
+    "options": [
+      { "Key": "A", "Value": "ACG产品支持微信认证，短信认证等功能" },
+      {
+        "Key": "B",
+        "Value":
+          "ACG产品支持旁路部署，在系统管理部署方式处将接收流量的接口打钩，并将流量镜像到该接口"
       },
       {
-        Key: "D",
-        Value:
-          "ACG的DFI主要用来是被应用的静态报文特征，DPI主要用来识别应用的动态流量特征",
+        "Key": "C",
+        "Value": "ACG产品不支持VRG功能，因此无法可作为MCE设备和MPLS网络对接"
       },
-    ],
-    analysis: "",
-  },
-  {
-    question:
-      '<br class="markdown_return"><p>关于 H3C 防火墙的安全域，以下说法正确的有</p>',
-    answer: "ACD",
-    options: [
-      { Key: "A", Value: "<p>防火墙无安全区域优先级的概念</p>" },
-      { Key: "B", Value: "<p>不同安全区域优先级一定不一样</p>" },
-      { Key: "C", Value: "<p>防火墙自身所有接口都属于 local 区域</p>" },
       {
-        Key: "D",
-        Value:
-          "<p>防火墙有五个安全区域，management、 local、 trust、Untrust、DMZ</p>",
-      },
+        "Key": "D",
+        "Value": "ACG的DFI主要用来是被应用的静态报文特征，DPI主要用来识别应用的动态流量特征"
+      }
     ],
-    analysis: "<p>OK</p>",
-  },
+    "analysis": "选项A和B是关于H3C ACG的正确说法。ACG产品支持微信认证、短信认证等多种认证功能，同时也支持旁路部署，通过在系统管理部署方式中选择接收流量的接口并进行镜像，可以实现旁路部署的功能。选项C中提到ACG产品不支持VRG功能，这是错误的说法，ACG产品确实支持VRG功能，可以作为MCE设备和MPLS网络对接。选项D是关于ACG的DFI和DPI功能的描述，与问题无关。"
+  }
+  ,
   {
-    question:
-      '<br class="markdown_return">一般来说，以下哪些功能是由NGFW防火墙来实现的',
-    answer: "ABD",
-    options: [
-      { Key: "A", Value: "监控网络中回话状态" },
-      { Key: "B", Value: "隔离内网与外网" },
-      { Key: "C", Value: "防止内网被篡改" },
-      { Key: "D", Value: "隔离可信任网络和不可信网络" },
-    ],
-    analysis: "",
-  },
-  {
-    question: '<br class="markdown_return">关于H3C 防火墙，下列说法正确的是',
-    answer: "BC",
-    options: [
-      { Key: "A", Value: "防火墙的安全策略只能在 WeB页面下配置." },
-      { Key: "B", Value: "防火境的默认登录IP地址是 192.168.0.1" },
-      { Key: "C", Value: "防火墙通过 WEB登录的默认用户名/密码是:admin/admin" },
-      { Key: "D", Value: "防火墙只能通过命令行方式升级版本 " },
-    ],
-    analysis: "",
-  },
-  {
-    question: '<br class="markdown_return">防火墙的工作模式包括',
-    answer: "BCD",
-    options: [
-      { Key: "A", Value: "交叉模式" },
-      { Key: "B", Value: "混合模式" },
-      { Key: "C", Value: "路由模式" },
-      { Key: "D", Value: "透明模式" },
-    ],
-    analysis: "",
-  },
-  {
-    question:
-      '<br class="markdown_return">H3C SecPath 防火墙的默认域间访问控制策略是',
-    answer: "CD",
-    options: [
-      { Key: "A", Value: " 所有区域都可以访问local 区域" },
-      { Key: "B", Value: "属于同一个安全域的各个接口之间的报文可以互访" },
-      { Key: "C", Value: "未划分到安全域的接口之间的报文会被丢弃" },
-      { Key: "D", Value: "安全域间的报文默认丢弃，包括同域之间" },
-    ],
-    analysis: "",
-  },
-  {
-    question:
-      '<br class="markdown_return"><p>H3C NGFW的DPI功能说法正确的有</p>',
-    answer: "ABD",
-    options: [
-      { Key: "A", Value: "<p>APR功能可以实现对报文所属应用程序的识别</p>" },
+    "question": "<br class=\"markdown_return\"><p>关于 H3C 防火墙的安全域，以下说法正确的有</p>",
+    "answer": "ACD",
+    "options": [
+      { "Key": "A", "Value": "<p>防火墙无安全区域优先级的概念</p>" },
+      { "Key": "B", "Value": "<p>不同安全区域优先级一定不一样</p>" },
+      { "Key": "C", "Value": "<p>防火墙自身所有接口都属于 local 区域</p>" },
       {
-        Key: "B",
-        Value:
-          "<p>如果报文与黑名单匹配成功，则会直接丢弃，不进行其他检测口</p>",
-      },
-      { Key: "C", Value: "<p>无法深度识别到报文所属的应用程序口</p>" },
-      { Key: "D", Value: "<p>业务流匹配安全策略后会进行DPI的检测</p>" },
+        "Key": "D",
+        "Value": "<p>防火墙有五个安全区域，management、 local、 trust、Untrust、DMZ</p>"
+      }
     ],
-    analysis: "<p>ok</p>",
-  },
+    "analysis": "<p>选项A、C和D是关于 H3C 防火墙安全域的正确说法。防火墙的安全域不涉及优先级概念，因此选项A正确。防火墙的所有接口都默认属于 local 区域，因此选项C正确。防火墙的缺省安全域包括 management、local、trust、Untrust 和 DMZ，因此选项D正确。选项B中的说法不一定正确，因为不同安全区域的优先级可能不同，但并非一定不一样。</p>"
+  }
+  ,
   {
-    question:
-      '<br class="markdown_return">IPSec 是在IETF 制定的保证在IP网络上传送数据的安全保密性的三层安全协议体。IPSec 协议族包含',
-    answer: "BC",
-    options: [
-      { Key: "A", Value: "PPP" },
-      { Key: "B", Value: "ESP" },
-      { Key: "C", Value: "AH" },
-      { Key: "D", Value: "PKL" },
+    "question": "<br class=\"markdown_return\">一般来说，以下哪些功能是由NGFW防火墙来实现的",
+    "answer": "ABD",
+    "options": [
+      { "Key": "A", "Value": "监控网络中回话状态" },
+      { "Key": "B", "Value": "隔离内网与外网" },
+      { "Key": "C", "Value": "防止内网被篡改" },
+      { "Key": "D", "Value": "隔离可信任网络和不可信网络" }
     ],
-    analysis: "",
-  },
+    "analysis": "<p>NGFW防火墙通常用于实现以下功能：</p><p>A. 监控网络中回话状态：NGFW能够监视网络中的会话状态，包括连接的建立、终止和数据传输状态。</p><p>B. 隔离内网与外网：NGFW可以设置访问控制策略，对内网与外网之间的通信进行隔离，防止未经授权的访问。</p><p>C. 防止内网被篡改：虽然NGFW通常也提供防火墙功能，但防止内网被篡改通常更多依赖于其他安全措施，如入侵检测系统（IDS）和入侵防御系统（IPS）。</p><p>D. 隔离可信任网络和不可信网络：NGFW可以根据安全策略对可信任网络和不可信任网络进行隔离，从而防止不受信任的网络访问受保护的资源。</p>"
+  }
+  ,
+  {
+    "question": "<br class=\"markdown_return\">关于H3C 防火墙，下列说法正确的是",
+    "answer": "BC",
+    "options": [
+      { "Key": "A", "Value": "防火墙的安全策略只能在 WeB页面下配置." },
+      { "Key": "B", "Value": "防火境的默认登录IP地址是 192.168.0.1" },
+      { "Key": "C", "Value": "防火墙通过 WEB登录的默认用户名/密码是:admin/admin" },
+      { "Key": "D", "Value": "防火墙只能通过命令行方式升级版本 " }
+    ],
+    "analysis": "<p>以下说法正确：</p><p>B. 防火墙的默认登录IP地址是 192.168.0.1。默认情况下，H3C防火墙的管理接口IP地址为192.168.0.1。</p><p>C. 防火墙通过WEB登录的默认用户名/密码是：admin/admin。默认情况下，H3C防火墙的Web登录用户名和密码都是admin。</p>"
+  }
+  ,
+  {
+    "question": "<br class=\"markdown_return\">防火墙的工作模式包括",
+    "answer": "BCD",
+    "options": [
+      { "Key": "A", "Value": "交叉模式" },
+      { "Key": "B", "Value": "混合模式" },
+      { "Key": "C", "Value": "路由模式" },
+      { "Key": "D", "Value": "透明模式" }
+    ],
+    "analysis": "<p>防火墙的工作模式包括：</p><p>B. 混合模式：混合了路由模式和透明模式的特点，可以实现路由功能和透明代理功能。</p><p>C. 路由模式：防火墙工作在网络层，具有路由功能。</p><p>D. 透明模式：防火墙工作在数据链路层，对外表现为透明，不需要重新配置网络设备。</p>"
+  }
+  ,
+  {
+    "question": "<br class=\"markdown_return\">H3C SecPath 防火墙的默认域间访问控制策略是",
+    "answer": "CD",
+    "options": [
+      { "Key": "A", "Value": " 所有区域都可以访问local 区域" },
+      { "Key": "B", "Value": "属于同一个安全域的各个接口之间的报文可以互访" },
+      { "Key": "C", "Value": "未划分到安全域的接口之间的报文会被丢弃" },
+      { "Key": "D", "Value": "安全域间的报文默认丢弃，包括同域之间" }
+    ],
+    "analysis": "<p>H3C SecPath 防火墙的默认域间访问控制策略：</p><p>C. 未划分到安全域的接口之间的报文会被丢弃。</p><p>D. 安全域间的报文默认丢弃，包括同域之间。</p>"
+  }
+  ,
+  {
+    "question": "<br class=\"markdown_return\"><p>H3C NGFW的DPI功能说法正确的有</p>",
+    "answer": "ABD",
+    "options": [
+      { "Key": "A", "Value": "<p>APR功能可以实现对报文所属应用程序的识别</p>" },
+      {
+        "Key": "B",
+        "Value": "<p>如果报文与黑名单匹配成功，则会直接丢弃，不进行其他检测口</p>"
+      },
+      { "Key": "C", "Value": "<p>无法深度识别到报文所属的应用程序口</p>" },
+      { "Key": "D", "Value": "<p>业务流匹配安全策略后会进行DPI的检测</p>" }
+    ],
+    "analysis": "<p>选项A正确，因为APR功能（应用程序识别）可以实现对报文所属应用程序的准确识别。选项B正确，当报文与黑名单匹配成功时，NGFW会直接丢弃该报文，不进行其他检测，以提高安全性。选项C错误，因为DPI功能可以深度识别报文所属的应用程序，因此可以对报文进行深度检测。选项D正确，业务流匹配安全策略后，NGFW会对流量进行DPI检测以进一步确认其内容和用途。</p>"
+  }
+  ,
+  {
+    "question": "<br class=\"markdown_return\">IPSec 是在IETF 制定的保证在IP网络上传送数据的安全保密性的三层安全协议体。IPSec 协议族包含",
+    "answer": "BC",
+    "options": [
+      { "Key": "A", "Value": "PPP" },
+      { "Key": "B", "Value": "ESP" },
+      { "Key": "C", "Value": "AH" },
+      { "Key": "D", "Value": "PKL" }
+    ],
+    "analysis": "<p>IPSec协议族包含AH（认证头）和ESP（封装安全载荷）协议，用于提供数据的完整性验证和机密性保护。</p>"
+  }
+  ,
   {
     question: '<br class="markdown_return">下面列举那些不属于AAA认证',
     answer: "BD",
@@ -652,16 +661,17 @@ export default [
     analysis: "",
   },
   {
-    question: '<br class="markdown_return">IPSec 支持哪些秘钥协商模式？',
-    answer: "BD",
-    options: [
-      { Key: "A", Value: "DPD 方式" },
-      { Key: "B", Value: "IKE 自动协商方式" },
-      { Key: "C", Value: "模板方式" },
-      { Key: "D", Value: "手工配置方式" },
+    "question": "<br class=\"markdown_return\">IPSec 支持哪些秘钥协商模式？",
+    "answer": "BD",
+    "options": [
+      { "Key": "A", "Value": "DPD 方式" },
+      { "Key": "B", "Value": "IKE 自动协商方式" },
+      { "Key": "C", "Value": "模板方式" },
+      { "Key": "D", "Value": "手工配置方式" }
     ],
-    analysis: "",
-  },
+    "analysis": "<p>IPSec支持的秘钥协商模式包括IKE自动协商方式和手工配置方式，而DPD方式和模板方式不是IPSec支持的秘钥协商模式。</p>"
+  }
+  ,
   {
     question: '<br class="markdown_return">根据防火墙的技术演进特征，可以分为',
     answer: "ABC",
