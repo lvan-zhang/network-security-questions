@@ -1,4 +1,4 @@
-[
+export default [
   {
     question:
       '<br class="markdown_return">H3C防火墙防病毒功能需要安装License文件。License到期后无法升级特征库，防病毒功能不能正常工作。',
@@ -8,6 +8,8 @@
       { Key: "B", Value: "正确" },
     ],
     analysis: "（无法更新，但是还能继续用旧的特征库）",
+    qtype: "1",
+    correct: "",
   },
   {
     question: '<br class="markdown_return">如何防范Land攻击?',
@@ -35,6 +37,8 @@
       },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question:
@@ -47,6 +51,8 @@
       { Key: "D", Value: "防火墙系统最多配置16个ISP域" },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question:
@@ -67,6 +73,8 @@
       { Key: "D", Value: "两者互不影响" },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question: "172.168.1.1为_____地址？",
@@ -78,6 +86,8 @@
       { Key: "D", Value: " C类" },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question:
@@ -90,6 +100,8 @@
       { Key: "D", Value: " 表示层数据称为SPDU" },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question:
@@ -102,6 +114,8 @@
       { Key: "D", Value: " PPTP" },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question: '<br class="markdown_return">在防火墙上使用_____命令配置地址池。',
@@ -113,6 +127,8 @@
       { Key: "D", Value: " nat net pool" },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question: '<br class="markdown_return">L2TP协议操作的正确顺序为以下哪项?',
@@ -136,6 +152,8 @@
       },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question:
@@ -148,6 +166,8 @@
       { Key: "D", Value: "[Device-line-vty0-63] authentication-mode scheme" },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question:
@@ -176,6 +196,8 @@
       },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question:
@@ -204,6 +226,8 @@
       },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question:
@@ -232,6 +256,8 @@
       },
     ],
     analysis: "双向访问开通",
+    qtype: "1",
+    correct: "",
   },
   {
     question:
@@ -260,6 +286,8 @@
       },
     ],
     analysis: "答案：暂无 已选答案 需要实验验证",
+    qtype: "1",
+    correct: "",
   },
   {
     question:
@@ -275,6 +303,8 @@
       { Key: "D", Value: "客户LAC模式不依赖额外的LAC设备，灵活性强" },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question:
@@ -287,6 +317,8 @@
       { Key: "D", Value: "查找路由表，寻找下一跳" },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question:
@@ -299,6 +331,8 @@
       { Key: "D", Value: " inat server处理报文的优先级高Fnalt outbound" },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question:
@@ -327,6 +361,8 @@
       },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question:
@@ -339,6 +375,8 @@
       { Key: "D", Value: "任意UDP源端口;任意UDP目的端口" },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question:
@@ -351,6 +389,8 @@
       { Key: "D", Value: " 没有重传机制" },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question:
@@ -363,6 +403,8 @@
       { Key: "D", Value: "untrust到trust的安全策略中，目的地址为地址池地址" },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question:
@@ -375,6 +417,8 @@
       { Key: "D", Value: "野蛮校式" },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question: '<br class="markdown_return">以下属于公有地址范围的是?',
@@ -386,6 +430,8 @@
       { Key: "D", Value: "192.169.0.0-223.169.255.255" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">以下属于私有地址范围的是?',
@@ -397,6 +443,8 @@
       { Key: "D", Value: "172.32.0.0-172.191.255.255" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">SSL VPN的配置一般包含哪些部分?',
@@ -408,6 +456,8 @@
       { Key: "D", Value: "配置SSL VPN访问实例" },
     ],
     analysis: "（A答案教材当中不是这样描述的）",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">下列关于SSL VPN的说法正确的是?',
@@ -422,6 +472,8 @@
       { Key: "D", Value: "SSL使用TCP的443端口进行通信" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -441,6 +493,8 @@
       },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">下列哪些属于SSL记录层的功能?',
@@ -452,6 +506,8 @@
       { Key: "D", Value: "验证传输数据的完整性，计算报文的摘要" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -476,6 +532,8 @@
       },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -502,6 +560,8 @@
       },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -529,6 +589,8 @@
       },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -544,6 +606,8 @@
       { Key: "D", Value: "缺省情况下，设备管理接口的IP地址为192.168.1.1/24" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -571,6 +635,8 @@
       },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">以下关于用户授权说法正确的是',
@@ -590,6 +656,8 @@
       },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -602,6 +670,8 @@
       { Key: "D", Value: "不进行AAA需要在防火墙上配置AAA实现方法为none" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return"><p>ACL规则的匹配顺序有哪些?</p>',
@@ -613,6 +683,8 @@
       { Key: "D", Value: "<p>自动排序</p>" },
     ],
     analysis: "<p>（MAC地址越小优先）</p>",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -625,6 +697,8 @@
       { Key: "D", Value: "<p>debug ip packetacl</p>" },
     ],
     analysis: "<p>应该是packet-capture 命令才行，单词不对。</p>",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -644,6 +718,8 @@
       },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">关于nat常见术语，下面说法正确的是?',
@@ -655,6 +731,8 @@
       { Key: "D", Value: "私网指的是局域网，且内部地址从公网路由不可达" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -667,6 +745,8 @@
       { Key: "D", Value: "协商过程中的安全性" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -679,6 +759,8 @@
       { Key: "D", Value: " 加密" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -701,6 +783,8 @@
       },
     ],
     analysis: "<p>ok</p>",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -728,6 +812,8 @@
       },
     ],
     analysis: "(需要自己做实验分析）",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -756,6 +842,8 @@
       },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -768,6 +856,8 @@
       { Key: "D", Value: "安全策略与域间策略可以共存" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: "下列关于防火墙性能衡量指标的说法错误的是?",
@@ -786,6 +876,8 @@
       { Key: "D", Value: " 新建连接数越小，抗攻击的能力也越强" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -806,6 +898,8 @@
       },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -818,6 +912,8 @@
       { Key: "D", Value: "<p>[device]local-user test class network</p>" },
     ],
     analysis: "<p>网络接入是network类型</p>",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -839,6 +935,8 @@
       },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -854,6 +952,8 @@
       { Key: "D", Value: " 只有ack报文才能刷新Keepalive计时器" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -866,6 +966,8 @@
       { Key: "D", Value: " SDN技术" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -882,6 +984,8 @@
       { Key: "D", Value: "防火墙无安全域优先级的概念" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -894,6 +998,8 @@
       { Key: "D", Value: "支持通过ACL限制能够登录Web的源IP地址" },
     ],
     analysis: "（实验验证过）",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -906,6 +1012,8 @@
       { Key: "D", Value: "ESecurity acL未配置" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -934,6 +1042,8 @@
       },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">以下关于用户认证说法正确的是',
@@ -952,6 +1062,8 @@
       },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">关于nat static下面说法正确的是?',
@@ -967,6 +1079,8 @@
       },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -982,6 +1096,8 @@
       },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -998,6 +1114,8 @@
       },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -1010,6 +1128,8 @@
       { Key: "D", Value: " Comware V7的版本,安全域没有优先级、共享等属性。" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -1029,6 +1149,8 @@
       },
     ],
     analysis: "<p>ok</p>",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -1041,6 +1163,8 @@
       { Key: "D", Value: "检查ICMP请求报文的源地址是否为广播地址，是则丢弃" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -1053,6 +1177,8 @@
       { Key: "D", Value: " 多因子身份验证" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">以下关于AH、ESP的说法正确的有',
@@ -1064,6 +1190,8 @@
       { Key: "D", Value: "AH和ESP都具有抗重播能力" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: " 多选，防火墙安全策略的优势有哪些?",
@@ -1086,6 +1214,8 @@
       },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: ' <br class="markdown_return">下列关于IPsec和IKE的说法正确的是',
@@ -1109,6 +1239,8 @@
       { Key: "D", Value: "IKE的cooike机制在一定程度上保护系统不受DOS攻击。" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -1132,6 +1264,8 @@
       { Key: "D", Value: "对于TCP流，发起方和响应方三次握手后建立稳定会话" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">互联网中常见的网络安全威胁方式分为',
@@ -1143,6 +1277,8 @@
       { Key: "D", Value: "被动攻击" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -1159,6 +1295,8 @@
       { Key: "D", Value: "是一种基于B/S架构的访问模式" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">以下关于H3C ACG说法正确的有',
@@ -1181,6 +1319,8 @@
       },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -1193,6 +1333,8 @@
       { Key: "D", Value: " Codel或用来决定报文类型" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -1208,6 +1350,8 @@
       { Key: "D", Value: " TCP接入比较适合访问动态协商通讯端口的网络应用" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -1224,6 +1368,8 @@
       { Key: "D", Value: "<p>接口加入安全域，放通相应的安全策略</p>" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -1239,6 +1385,8 @@
       },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -1267,6 +1415,8 @@
       },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">多选\t下面说法正确的是？',
@@ -1286,6 +1436,8 @@
       { Key: "D", Value: " . nat 只转换IP地址和端口号，不解析应用层数据" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -1306,6 +1458,8 @@
       { Key: "D", Value: "<p>IKE野蛮模式使用三条消息来提供完整性保护</p>" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">多选 以下关于用户计费说法正确的是',
@@ -1317,6 +1471,8 @@
       { Key: "D", Value: "记录用户上网流量" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -1339,6 +1495,8 @@
       { Key: "D", Value: "<p>自定义特征的内容能被创建、修改和删除。</p>" },
     ],
     analysis: "<p>ok</p>",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -1360,6 +1518,8 @@
       },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">防火墙上所有接口都默认属于Local域。',
@@ -1369,6 +1529,8 @@
       { Key: "B", Value: "错误" },
     ],
     analysis: "",
+    qtype: "3",
+    correct: "",
   },
   {
     question:
@@ -1379,6 +1541,8 @@
       { Key: "B", Value: "错误" },
     ],
     analysis: "（其实后半句话有些歧义）",
+    qtype: "3",
+    correct: "",
   },
   {
     question:
@@ -1389,6 +1553,8 @@
       { Key: "B", Value: "错误" },
     ],
     analysis: "",
+    qtype: "3",
+    correct: "",
   },
   {
     question:
@@ -1399,6 +1565,8 @@
       { Key: "B", Value: "错误" },
     ],
     analysis: "",
+    qtype: "3",
+    correct: "",
   },
   {
     question:
@@ -1409,6 +1577,8 @@
       { Key: "B", Value: "错误" },
     ],
     analysis: "",
+    qtype: "3",
+    correct: "",
   },
   {
     question:
@@ -1419,6 +1589,8 @@
       { Key: "B", Value: "错误" },
     ],
     analysis: "",
+    qtype: "3",
+    correct: "",
   },
   {
     question: '<br class="markdown_return">GRE的协议号为 47；',
@@ -1428,6 +1600,8 @@
       { Key: "B", Value: "错误" },
     ],
     analysis: "",
+    qtype: "3",
+    correct: "",
   },
   {
     question:
@@ -1438,6 +1612,8 @@
       { Key: "B", Value: "错误" },
     ],
     analysis: "（题目超纲，需要自己去查资料确认答案）",
+    qtype: "3",
+    correct: "",
   },
   {
     question:
@@ -1448,6 +1624,8 @@
       { Key: "B", Value: "错误" },
     ],
     analysis: "",
+    qtype: "3",
+    correct: "",
   },
   {
     question:
@@ -1458,6 +1636,8 @@
       { Key: "B", Value: "错误" },
     ],
     analysis: "",
+    qtype: "3",
+    correct: "",
   },
   {
     question:
@@ -1468,6 +1648,8 @@
       { Key: "B", Value: "错误" },
     ],
     analysis: "",
+    qtype: "3",
+    correct: "",
   },
   {
     question:
@@ -1479,6 +1661,8 @@
     ],
     analysis:
       "<p>实时备份：目前HA支持热备的业务表项包括：NAT端口块表项、AFT端口块表项、会话表项、会话关联表项和各个安全业务模块自身生成的业务表项 </p>",
+    qtype: "3",
+    correct: "",
   },
   {
     question:
@@ -1489,6 +1673,8 @@
       { Key: "B", Value: "错误" },
     ],
     analysis: "",
+    qtype: "3",
+    correct: "",
   },
   {
     question:
@@ -1499,5 +1685,7 @@
       { Key: "B", Value: "错误" },
     ],
     analysis: "<p>ok</p>",
+    qtype: "3",
+    correct: "",
   },
 ];

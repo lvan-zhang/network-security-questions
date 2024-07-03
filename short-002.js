@@ -1,4 +1,4 @@
-[
+export default [
   {
     question:
       '<br class="markdown_return">下列关于流与会话的说法哪个是正确的？',
@@ -17,6 +17,8 @@
       { Key: "D", Value: "防火墙对组播或者广播报文同样建立会话" },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question:
@@ -29,6 +31,8 @@
       { Key: "D", Value: "由于外网地址被占用，利用接口地址可以正常访问互联网" },
     ],
     analysis: "（等待表项老化，释放地址即可使用）",
+    qtype: "1",
+    correct: "",
   },
   {
     question:
@@ -41,6 +45,8 @@
       { Key: "D", Value: "安全策路在nat之前，即先匹配安全策略，再匹配nat" },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question:
@@ -52,6 +58,8 @@
       { Key: "C", Value: " ID交换及验证" },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question: '<br class="markdown_return">下面哪项不是L2TP的优点',
@@ -63,6 +71,8 @@
       { Key: "D", Value: "提供多种访问控制方式" },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question:
@@ -89,6 +99,8 @@
       },
     ],
     analysis: "（B或者D，无法实验证实）",
+    qtype: "1",
+    correct: "",
   },
   {
     question: '<br class="markdown_return">AAA认证不包括？',
@@ -100,6 +112,8 @@
       { Key: "D", Value: " 认证" },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question:
@@ -125,6 +139,8 @@
       },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question:
@@ -137,6 +153,8 @@
       { Key: "D", Value: "D.isplay session table ipv4 " },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question: '<br class="markdown_return">配置NAT时下面哪些是必须的？',
@@ -148,6 +166,8 @@
       { Key: "D", Value: "ACL" },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question:
@@ -160,6 +180,8 @@
       { Key: "D", Value: " GRE+IPSEC" },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question:
@@ -172,6 +194,8 @@
       { Key: "D", Value: "SSH" },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question:
@@ -184,6 +208,8 @@
       { Key: "D", Value: " global地址" },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question:
@@ -196,6 +222,8 @@
       { Key: "D", Value: " 承载协议" },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question:
@@ -224,6 +252,8 @@
       },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question:
@@ -243,6 +273,8 @@
       },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question:
@@ -255,6 +287,8 @@
       { Key: "D", Value: "FIB表" },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question: '<br class="markdown_return">以下关于RADIUS认证说法错误的是',
@@ -280,6 +314,8 @@
       },
     ],
     analysis: "（1812指定为认证授权，1813指定为计费，不能变）",
+    qtype: "1",
+    correct: "",
   },
   {
     question: '<br class="markdown_return">关于网络地址转换，下面说法正确的是?',
@@ -295,6 +331,8 @@
       { Key: "D", Value: "acl为必配项，用于筛选接口下需要进行nat的流量" },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question:
@@ -307,6 +345,8 @@
       { Key: "D", Value: "easy ip" },
     ],
     analysis: "本题单选题（D也对啊，有异议）",
+    qtype: "1",
+    correct: "",
   },
   {
     question: '<br class="markdown_return">以下关于动态NAT的说法正确的是',
@@ -324,6 +364,8 @@
       { Key: "D", Value: "所有模式的动态NAT都支持复用公网地址" },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question:
@@ -336,6 +378,8 @@
       { Key: "D", Value: "D" },
     ],
     analysis: "实验证明是D",
+    qtype: "1",
+    correct: "",
   },
   {
     question:
@@ -348,6 +392,8 @@
       { Key: "D", Value: "？？" },
     ],
     analysis: "三个",
+    qtype: "1",
+    correct: "",
   },
   {
     question:
@@ -361,6 +407,8 @@
     ],
     analysis:
       '不完整，分析技巧如下<br class="markdown_return">窍门 ：1）  ACL命中的流量为 GRE封装之后的源目地址<br class="markdown_return">2）IPSEC 策略安装的位置必须是物理出接口',
+    qtype: "1",
+    correct: "",
   },
   {
     question:
@@ -373,6 +421,8 @@
       { Key: "D", Value: "nat static" },
     ],
     analysis: "（家庭上网环境、动态IP地址，一律easy ip技术）",
+    qtype: "1",
+    correct: "",
   },
   {
     question: '<br class="markdown_return">下列哪些功能可以有H3C防火墙实现？',
@@ -384,6 +434,8 @@
       { Key: "D", Value: " 监控网络中的会话状态" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -396,6 +448,8 @@
       { Key: "D", Value: " 使用带宽" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">以下属于LDAP用户属性的是？',
@@ -407,6 +461,8 @@
       { Key: "D", Value: "用户名称格式( user-name-format )" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -419,6 +475,8 @@
       { Key: "D", Value: "web界面与命令行混配" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -437,6 +495,8 @@
       { Key: "D", Value: "<p>防火墙产品默认关闭了包过滤规则</p>" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -449,6 +509,8 @@
       { Key: "D", Value: "<p>若未匹配到安全策略，则按默认策略进行处理</p>" },
     ],
     analysis: "<p>ok</p>",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -461,6 +523,8 @@
       { Key: "D", Value: "地址重要的VPN实例互访" },
     ],
     analysis: "(D答案有异议）",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">下列关于NAT穿越功能说法正确的是？',
@@ -472,6 +536,8 @@
       { Key: "D", Value: "避免了 NAT网关对 IPsec报文进行篡改" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">关于SSL VPN组网模式说法正确的是？',
@@ -483,6 +549,8 @@
       { Key: "D", Value: "旁路模式组网不能全面的保护网络" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -498,6 +566,8 @@
       { Key: "D", Value: "IKE不仅用于IPsec， 它是一个通用的交换协议" },
     ],
     analysis: "（D答案优点怪怪的，IKE可以独立运行这是真的）",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">下面哪个说法是正确的',
@@ -521,6 +591,8 @@
       },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -533,6 +605,8 @@
       { Key: "D", Value: "Tunnel 口己设置 GRE 类型隧道接口的密钥" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -553,6 +627,8 @@
       { Key: "E", Value: " 及时省会操作系统到最新版本" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -574,6 +650,8 @@
       },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -586,6 +664,8 @@
       { Key: "D", Value: " 协议" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -598,6 +678,8 @@
       { Key: "D", Value: " 后门攻击" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -614,6 +696,8 @@
       { Key: "D", Value: "用户所属的ISP域是由用户登录时提供的用户名决定的" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -640,6 +724,8 @@
       },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">网络层常见的安全风险有哪些？',
@@ -651,6 +737,8 @@
       { Key: "D", Value: "Smurf攻击" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">下列哪些是防火墙所具备的基本功能？',
@@ -662,6 +750,8 @@
       { Key: "D", Value: " 双机热备" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">防火墙按照检测技术可以分为哪几种？',
@@ -673,6 +763,8 @@
       { Key: "D", Value: " 状态检测防火墙" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">用户AAA认证方式包括？',
@@ -684,6 +776,8 @@
       { Key: "D", Value: " 本地认证" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -697,6 +791,8 @@
     ],
     analysis:
       "<p>老防火墙还可以把ip子网、vlan也加入到安全域中，但是NGFW的不行。</p>",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">关于pat模式，下面说法正确的是？',
@@ -708,6 +804,8 @@
       { Key: "D", Value: " NAT设备只对报文头部的IP地址进行转换，不转换端口号" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">下面那些不属于三层vpn技术?',
@@ -719,6 +817,8 @@
       { Key: "D", Value: "GRE" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">下面关于GRE协议的描述正确的是？',
@@ -738,6 +838,8 @@
       },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">以下属于块加密算法的是:',
@@ -749,6 +851,8 @@
       { Key: "D", Value: "AES" },
     ],
     analysis: "（块加密就是对称加密算法--3DES也是）",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -761,6 +865,8 @@
       { Key: "D", Value: " 配置没有激活" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -784,6 +890,8 @@
     ],
     analysis:
       '（D答案有异议，堆叠技术也可以）<br class="markdown_return">说明/参考: ★ 详见第二章P38,2.3.5章节',
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -808,6 +916,8 @@
       },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -820,6 +930,8 @@
       { Key: "D", Value: " 接口的物理down" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -840,6 +952,8 @@
       { Key: "D", Value: " 配置简单，在接口下发NAT配置即可" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">I.KE的配置任务包括？',
@@ -851,6 +965,8 @@
       { Key: "D", Value: " 配置本端和对端身份信息" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -867,6 +983,8 @@
       { Key: "D", Value: 'IP接入方式也称为” 端口转发"方式' },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">下列关于L2TP会话的说法中正确的是？',
@@ -878,6 +996,8 @@
       { Key: "D", Value: "用户断开连接时，先关闭隧道，再关闭会话" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -890,6 +1010,8 @@
       { Key: "D", Value: "拥有基于应用资源的访问控制策略" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -904,6 +1026,8 @@
       { Key: "F", Value: "验证载荷" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -916,6 +1040,8 @@
       { Key: "D", Value: "非法资源访问" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">如何合理防范MAC泛洪攻击?',
@@ -927,6 +1053,8 @@
       { Key: "D", Value: "配置端口的MAC学习条目限制" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -955,6 +1083,8 @@
       },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -967,6 +1097,8 @@
       { Key: "D", Value: "打游戏高Ping，但视频会议流畅的很" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -979,6 +1111,8 @@
       { Key: "D", Value: "缺省认证方法是radius-scheme rd local" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -991,6 +1125,8 @@
       { Key: "D", Value: "[Device] local-user test class network" },
     ],
     analysis: "(门户接入，属于network类）",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">以下关于RADIUS认证说法正确的是',
@@ -1015,6 +1151,8 @@
       },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -1038,6 +1176,8 @@
     ],
     analysis:
       "（A答案前半句正确，后半句话没看懂，去教材配置界面参考分析看看，而且单词也错了）",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -1062,6 +1202,8 @@
       },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -1084,6 +1226,8 @@
       },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -1096,6 +1240,8 @@
       { Key: "D", Value: "尽量写明精确的ACL，精确到源目地址和协议" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -1120,6 +1266,8 @@
       },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -1132,6 +1280,8 @@
       { Key: "D", Value: "pat" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -1144,6 +1294,8 @@
       { Key: "D", Value: "D" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -1159,6 +1311,8 @@
       { Key: "D", Value: "PC的地址通过IPCP协商来获取。" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -1171,6 +1325,8 @@
       { Key: "D", Value: "安全策略" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">下面关于加密的实现层次说法正确的是',
@@ -1182,6 +1338,8 @@
       { Key: "D", Value: "SSL是传输层加密" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -1210,6 +1368,8 @@
       },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -1226,6 +1386,8 @@
       },
     ],
     analysis: "(D答案好像也对，教材当中叫做重定向，处理细节教材当中没有描述）",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">以下关于H3C ACG说法正确的有',
@@ -1248,6 +1410,8 @@
       },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -1260,6 +1424,8 @@
       { Key: "D", Value: "融合UTM的对象策略" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -1270,6 +1436,8 @@
       { Key: "B", Value: "错误" },
     ],
     analysis: "",
+    qtype: "3",
+    correct: "",
   },
   {
     question:
@@ -1280,6 +1448,8 @@
       { Key: "B", Value: "错误" },
     ],
     analysis: "No-pat模式没有解决",
+    qtype: "3",
+    correct: "",
   },
   {
     question:
@@ -1290,6 +1460,8 @@
       { Key: "B", Value: "错误" },
     ],
     analysis: "",
+    qtype: "3",
+    correct: "",
   },
   {
     question:
@@ -1300,6 +1472,8 @@
       { Key: "B", Value: "错误" },
     ],
     analysis: "百度上有人说不需要，没条件做实验证实",
+    qtype: "3",
+    correct: "",
   },
   {
     question:
@@ -1310,6 +1484,8 @@
       { Key: "B", Value: "错误" },
     ],
     analysis: "这个是Land攻击",
+    qtype: "3",
+    correct: "",
   },
   {
     question:
@@ -1320,6 +1496,8 @@
       { Key: "B", Value: "错误" },
     ],
     analysis: "",
+    qtype: "3",
+    correct: "",
   },
   {
     question:
@@ -1330,6 +1508,8 @@
       { Key: "B", Value: "错误" },
     ],
     analysis: "（TCP连接）",
+    qtype: "3",
+    correct: "",
   },
   {
     question:
@@ -1340,6 +1520,8 @@
       { Key: "B", Value: "错误" },
     ],
     analysis: "答案未知，超出教材外",
+    qtype: "3",
+    correct: "",
   },
   {
     question:
@@ -1350,6 +1532,8 @@
       { Key: "B", Value: "错误" },
     ],
     analysis: "",
+    qtype: "3",
+    correct: "",
   },
   {
     question:
@@ -1360,6 +1544,8 @@
       { Key: "B", Value: "错误" },
     ],
     analysis: "",
+    qtype: "3",
+    correct: "",
   },
   {
     question:
@@ -1370,6 +1556,8 @@
       { Key: "B", Value: "错误" },
     ],
     analysis: "",
+    qtype: "3",
+    correct: "",
   },
   {
     question:
@@ -1380,6 +1568,8 @@
       { Key: "B", Value: "错误" },
     ],
     analysis: "（只是不能升级，但还能继续用旧的特征库）",
+    qtype: "3",
+    correct: "",
   },
   {
     question:
@@ -1390,6 +1580,8 @@
       { Key: "B", Value: "错误" },
     ],
     analysis: "实验命令是可以的，最终效果没测试过。个人倾向于A答案",
+    qtype: "3",
+    correct: "",
   },
   {
     question:
@@ -1400,6 +1592,8 @@
       { Key: "B", Value: "错误" },
     ],
     analysis: "",
+    qtype: "3",
+    correct: "",
   },
   {
     question:
@@ -1410,6 +1604,8 @@
       { Key: "B", Value: "错误" },
     ],
     analysis: "",
+    qtype: "3",
+    correct: "",
   },
   {
     question:
@@ -1420,6 +1616,8 @@
       { Key: "B", Value: "错误" },
     ],
     analysis: "",
+    qtype: "3",
+    correct: "",
   },
   {
     question:
@@ -1430,6 +1628,8 @@
       { Key: "B", Value: "错误" },
     ],
     analysis: "（教材里面有原话）",
+    qtype: "3",
+    correct: "",
   },
   {
     question:
@@ -1440,5 +1640,7 @@
       { Key: "B", Value: "错误" },
     ],
     analysis: "（教材有原话）",
+    qtype: "3",
+    correct: "",
   },
 ];

@@ -1,4 +1,4 @@
-[
+export default [
   {
     question: "下列攻击手段中，不属于单包攻击的是（）",
     answer: "A",
@@ -9,6 +9,8 @@
       { Key: "D", Value: "Smurf攻击" },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question:
@@ -21,6 +23,8 @@
       { Key: "D", Value: "TCP1700" },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question:
@@ -33,6 +37,8 @@
       { Key: "D", Value: "L2tp" },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question:
@@ -45,6 +51,8 @@
       { Key: "D", Value: "地址过滤 " },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question: '<br class="markdown_return">下列关于应用审计配置说法错误的是',
@@ -59,6 +67,8 @@
       { Key: "D", Value: "在“审计行为内容” 里可以配置某个 APP做的相应动作" },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question:
@@ -71,6 +81,8 @@
       { Key: "D", Value: "SMB防火墙" },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question:
@@ -83,6 +95,8 @@
       { Key: "D", Value: "防火墙能够执行安全策略" },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question:
@@ -95,6 +109,8 @@
       { Key: "D", Value: "综合考虑A和B的情况进行判断" },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question:
@@ -107,6 +123,8 @@
       { Key: "D", Value: "链路层协议->GRE>IP>IPX " },
     ],
     analysis: "链路层--承载协议--封装协议--载荷协议--载荷数据",
+    qtype: "1",
+    correct: "",
   },
   {
     question:
@@ -117,6 +135,8 @@
       { Key: "B", Value: " 正确" },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question: '<br class="markdown_return">下列那一项没有涉及到密码技术',
@@ -128,6 +148,8 @@
       { Key: "D", Value: "IPSec/IKE " },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question:
@@ -151,6 +173,8 @@
       },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question:
@@ -163,6 +187,8 @@
       { Key: "D", Value: "V100-E " },
     ],
     analysis: "<p>ok</p>",
+    qtype: "1",
+    correct: "",
   },
   {
     question:
@@ -175,6 +201,8 @@
       { Key: "D", Value: "XLOG" },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question: '<br class="markdown_return">以下哪个场景不存在VPN 的需求？',
@@ -186,6 +214,8 @@
       { Key: "D", Value: "加油站/收费站的联网" },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question: '<br class="markdown_return">下面哪个不是VPN技术中用到的加密算法',
@@ -197,6 +227,8 @@
       { Key: "D", Value: "RIP/RIP2 " },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question: '<br class="markdown_return">关于VPN，下述哪个说法是不正确的?',
@@ -208,6 +240,8 @@
       { Key: "D", Value: "最大并发隧道数是VPN 网关的关键性能指标。" },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question: '<br class="markdown_return">下述哪个是H3C专有的VPN技术',
@@ -219,6 +253,8 @@
       { Key: "D", Value: "MPLS VPN " },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question: '<br class="markdown_return">下面哪个说法是错误的？',
@@ -243,6 +279,8 @@
       },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question:
@@ -255,6 +293,8 @@
       { Key: "D", Value: "防病毒" },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question: '<br class="markdown_return">SSL VPN 支持哪些接入方式?',
@@ -266,6 +306,8 @@
       { Key: "D", Value: "以上都是" },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question: '<br class="markdown_return">SSL VPN 主要可以解决:',
@@ -277,6 +319,8 @@
       { Key: "D", Value: "以上全是" },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question: '<br class="markdown_return">以下属于块加密算法的是:',
@@ -288,6 +332,8 @@
       { Key: "D", Value: "RC4" },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question:
@@ -300,6 +346,8 @@
       { Key: "D", Value: "网络协商（NCP） 阶段" },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question: '<br class="markdown_return">AH 和 ESP的协议号分别是:',
@@ -311,6 +359,8 @@
       { Key: "D", Value: " 47，17" },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question:
@@ -323,6 +373,8 @@
       { Key: "D", Value: " AH" },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question:
@@ -335,6 +387,8 @@
       { Key: "D", Value: " 都相同 " },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question: '<br class="markdown_return">下列关于 L2TP的说法正确的有:',
@@ -362,6 +416,8 @@
       },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question: '<br class="markdown_return">GRE 协议的协议号是：',
@@ -373,6 +429,8 @@
       { Key: "D", Value: "48" },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question: '<br class="markdown_return"><p>L2TP会话的建立是通过()完成的</p>',
@@ -384,6 +442,8 @@
       { Key: "D", Value: "<p>UDP报文的 4 次握手</p>" },
     ],
     analysis: "<p>OK</p>",
+    qtype: "1",
+    correct: "",
   },
   {
     question: '<br class="markdown_return">下面有关L2TP配置说法正确的有:',
@@ -406,6 +466,8 @@
       { Key: "D", Value: "L2TP默认配置情况下启用了隧道验证，且验证密码为空" },
     ],
     analysis: "",
+    qtype: "1",
+    correct: "",
   },
   {
     question: "ACL（访问控制列表）的类型包括有（）",
@@ -417,6 +479,8 @@
       { Key: "D", Value: "基本ACL " },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: "以下关于HWTACACS协议与RADIUS协议说法正确的是()",
@@ -432,6 +496,8 @@
     ],
     analysis:
       "<p>A选项表述有问题，应该是除了HWTACACS报文头，对报文主体全部进行加密。</p>",
+    qtype: "2",
+    correct: [],
   },
   {
     question: "H3C NGFW的特征库包括以下哪些？",
@@ -444,6 +510,8 @@
     ],
     analysis:
       "<p>B选项没有ARP特征库说法，除非写成APR特征库或者ACG应用特征库</p>",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">IPsec 的优点有',
@@ -455,6 +523,8 @@
       { Key: "D", Value: "数据机密性（Confidenttiality） " },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -467,6 +537,8 @@
       { Key: "D", Value: "安全参数索引（SPI） " },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return"><p>H3C 防火墙缺省的安全域包括</p>',
@@ -479,6 +551,8 @@
       { Key: "E", Value: "trust" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">NAT 的实现方式包括',
@@ -490,6 +564,8 @@
       { Key: "D", Value: "No-pat方式" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">用户AAA授权方式包括什么？',
@@ -501,6 +577,8 @@
       { Key: "D", Value: " 不授权" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -513,6 +591,8 @@
       { Key: "D", Value: "数据链路层" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">IPSec 协议支持哪些封装模式',
@@ -524,6 +604,8 @@
       { Key: "D", Value: "传输模式" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">下面关于H3C ACG的说话正确的有',
@@ -546,6 +628,8 @@
       },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -562,6 +646,8 @@
       },
     ],
     analysis: "<p>OK</p>",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -574,6 +660,8 @@
       { Key: "D", Value: "隔离可信任网络和不可信网络" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">关于H3C 防火墙，下列说法正确的是',
@@ -585,6 +673,8 @@
       { Key: "D", Value: "防火墙只能通过命令行方式升级版本 " },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">防火墙的工作模式包括',
@@ -596,6 +686,8 @@
       { Key: "D", Value: "透明模式" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -608,6 +700,8 @@
       { Key: "D", Value: "安全域间的报文默认丢弃，包括同域之间" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -624,6 +718,8 @@
       { Key: "D", Value: "<p>业务流匹配安全策略后会进行DPI的检测</p>" },
     ],
     analysis: "<p>ok</p>",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -636,6 +732,8 @@
       { Key: "D", Value: "PKL" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">下面列举那些不属于AAA认证',
@@ -647,6 +745,8 @@
       { Key: "D", Value: "接入（Access） " },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">IPSec 支持哪些秘钥协商模式？',
@@ -658,6 +758,8 @@
       { Key: "D", Value: "手工配置方式" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">根据防火墙的技术演进特征，可以分为',
@@ -669,6 +771,8 @@
       { Key: "D", Value: "电信级防火墙" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -681,6 +785,8 @@
       { Key: "D", Value: "<p>目标地址散列</p>" },
     ],
     analysis: "<p>ok</p>",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -693,6 +799,8 @@
       { Key: "D", Value: " S5800" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">关于VPN，下述哪个说法是正确的?',
@@ -704,6 +812,8 @@
       { Key: "D", Value: "最大并发隧道数是VPN 网关的关键性能指标。" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">下面那个用户可能存在VPN应用需求?',
@@ -731,6 +841,8 @@
       },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">SSL VPN 同IPSec相比的优势是',
@@ -745,6 +857,8 @@
       { Key: "D", Value: "实现数据加密" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">VPN Manager 的两大核心作用是？',
@@ -756,6 +870,8 @@
       { Key: "D", Value: "VPN 加速" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -768,6 +884,8 @@
       { Key: "D", Value: "<p>性能优异</p>" },
     ],
     analysis: "<p>ok</p>",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -780,6 +898,8 @@
       { Key: "D", Value: "VPN mananger 实现VPN 业务集中管理" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -792,6 +912,8 @@
       { Key: "D", Value: "<p>局域网內建立加密通道</p>" },
     ],
     analysis: "<p>ok</p>",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">H3C SecPath 系列VPN产品有哪2款？',
@@ -803,6 +925,8 @@
       { Key: "D", Value: "V3000" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -815,6 +939,8 @@
       { Key: "D", Value: " F100-E" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -831,6 +957,8 @@
       { Key: "D", Value: "<p>支持丰富的 QoS 特性</p>" },
     ],
     analysis: "<p>无强大的路由能力</p>",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">衡量VPN 的性能，主要有以下哪些指标?',
@@ -842,6 +970,8 @@
       { Key: "D", Value: "最大并发隧道数" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">H3C 可提供的VPN 解决方案包括哪些?',
@@ -853,6 +983,8 @@
       { Key: "D", Value: "思科VPN " },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">SSL VPN 的安全性体现在',
@@ -864,6 +996,8 @@
       { Key: "D", Value: "防病毒 " },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">L2TP建立隧道时使用的消息有',
@@ -875,6 +1009,8 @@
       { Key: "D", Value: "IORO (Incoming-Call-Request )" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -900,6 +1036,8 @@
       },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -912,6 +1050,8 @@
       { Key: "D", Value: " 配置IPSec 安全策略只能使用策略模板方式" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: "关于IPSec 和IKE ，下列说法中正确的是:",
@@ -935,6 +1075,8 @@
       { Key: "D", Value: "IKE 的 cookie 机制在一定程度上保护系统不受DOS 攻击" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">GRE VPN 配置任务包括。',
@@ -946,6 +1088,8 @@
       { Key: "D", Value: " 设置 Tunnel 口的网络地址 " },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">以下关于L2TP的描述正确的是:',
@@ -957,6 +1101,8 @@
       { Key: "D", Value: " L2TP协议不支持报文加密 " },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">L2TP建立会话时使用的消息有；',
@@ -968,6 +1114,8 @@
       { Key: "D", Value: "ICRP (Incoming-Call-Reply )" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -980,6 +1128,8 @@
       { Key: "D", Value: "LAC 和 LNS 端配置的密码验证类型不一致" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">L2TP协议主要操作包括:',
@@ -993,6 +1143,8 @@
       { Key: "F", Value: "关闭控制连接" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -1006,6 +1158,8 @@
       { Key: "E", Value: "TCP服务 " },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -1018,6 +1172,8 @@
       { Key: "D", Value: "杀毒软件的类型版本和病毒库版本" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">一个完整的 SSL VPN 全握手过程包括:',
@@ -1030,6 +1186,8 @@
       { Key: "E", Value: "建立 SSL 连接" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -1042,6 +1200,8 @@
       { Key: "D", Value: "GREVPN " },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">下列关于 SSL VPN 的说法，正确的是:',
@@ -1053,6 +1213,8 @@
       { Key: "D", Value: "SSL VPN 可以对传输的数据进行加密 " },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: "在 SSL VPN 技术中，下列哪些算法可以保证数据传输的完整性?",
@@ -1064,6 +1226,8 @@
       { Key: "D", Value: "<p>3DES</p>" },
     ],
     analysis: "<p>ok</p>",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">H3C SSL VPN 的权限管理体系分为:',
@@ -1075,6 +1239,8 @@
       { Key: "D", Value: " 本地授权 " },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -1087,6 +1253,8 @@
       { Key: "D", Value: " AD 认证" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -1105,6 +1273,8 @@
       },
     ],
     analysis: "<p>TCP接入可以支持任何协议的网络应用，不支持UDP的应用。</p>",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">H3C SSL VPN 产品的主要功能包括:',
@@ -1117,6 +1287,8 @@
       { Key: "E", Value: " 缓存清除 " },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">SSL VPN 有哪些接入方式?',
@@ -1128,6 +1300,8 @@
       { Key: "D", Value: "IP接入 " },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question: '<br class="markdown_return">网络安全的研究内容包括',
@@ -1139,6 +1313,8 @@
       { Key: "D", Value: " 工业网络安全" },
     ],
     analysis: "",
+    qtype: "2",
+    correct: [],
   },
   {
     question:
@@ -1149,6 +1325,8 @@
       { Key: "B", Value: "错误" },
     ],
     analysis: "",
+    qtype: "3",
+    correct: "",
   },
   {
     question:
@@ -1159,6 +1337,8 @@
       { Key: "B", Value: "错误" },
     ],
     analysis: "",
+    qtype: "3",
+    correct: "",
   },
   {
     question:
@@ -1169,6 +1349,8 @@
       { Key: "B", Value: "错误" },
     ],
     analysis: "",
+    qtype: "3",
+    correct: "",
   },
   {
     question:
@@ -1179,6 +1361,8 @@
       { Key: "B", Value: "错误" },
     ],
     analysis: "",
+    qtype: "3",
+    correct: "",
   },
   {
     question:
@@ -1189,6 +1373,8 @@
       { Key: "B", Value: "错误" },
     ],
     analysis: "",
+    qtype: "3",
+    correct: "",
   },
   {
     question:
@@ -1199,5 +1385,7 @@
       { Key: "B", Value: "错误" },
     ],
     analysis: "",
+    qtype: "3",
+    correct: "",
   },
 ];

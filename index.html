@@ -3,13 +3,126 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css"> -->
+  <link rel="stylesheet" href="./element-ui.css">
   <title>Document</title>
+  <style>
+    .el-radio__label,
+    .el-checkbox__label {
+      font-size: 24px;
+    }
+    .title-wrapper {
+      display: flex;
+      align-items: center;
+    }
+    .title {
+      font-size: 24px;
+    }
+    .el-radio,
+    .el-checkbox {
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .my-random {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      z-index: 100;
+    }
+  </style>
 </head>
 <body>
-  
+  <div id="app">
+    <el-button type="info" @click="toRandom()" class="my-random">随机模式</el-button>
+    <div v-for="(quesItem, quesIndex) in quesList">
+      <div class="title-wrapper">
+        <div class="title">{{ quesIndex + 1 }}. </div>
+        <div v-html="quesItem.question" class="title"></div>
+        <el-button type="text" @click="toShowResult(quesItem, quesIndex)">{{ quesItem.showResult ? '隐藏结果' : '查看结果' }}</el-button>
+        <div v-if="quesItem.showResult">{{ quesItem.answer }}</div>
+        <el-button type="primary" @click="toSubmit(quesItem, quesIndex)">提交</el-button>
+      </div>
+      <div v-if="quesItem.qtype === '1' || quesItem.qtype === '3'">
+        <el-radio-group v-model="quesItem.correct">
+          <div v-for="quesOption in quesItem.options">
+            <el-radio :label="quesOption.Key">{{ quesOption.Key }}. {{ quesOption.Value }}</el-radio><br>
+          </div>
+        </el-radio-group>
+      </div>
+      <div v-if="quesItem.qtype === '2'">
+        <el-checkbox-group v-model="quesItem.correct">
+          <div v-for="quesOption in quesItem.options">
+            <el-checkbox :label="quesOption.Key">{{ quesOption.Key }}. {{ quesOption.Value }}</el-checkbox><br>
+          </div>
+        </el-checkbox-group>
+      </div>
+    </div>
+  </div>
 </body>
+<script src="./vue.js"></script>
+<script src="./element-ui.js"></script>
+<!-- <script src="https://unpkg.com/vue@2/dist/vue.js"></script>
+<script src="https://unpkg.com/element-ui/lib/index.js"></script> -->
 <script type="module">
-import ques1 from './ai-001.js'
+import ques1 from './short-001.js'
+import ques2 from './short-002.js'
+import ques3 from './short-003.js'
+const quesAll = [...ques1, ...ques2, ...ques3]
+new Vue({
+  el: '#app',
+  data: function() {
+    return { 
+      quesList: quesAll,
+    }
+  },
+  methods: {
+    toShowResult (item, index) {
+      if (this.quesList[index].showResult) {
+        this.$set(this.quesList[index], 'showResult', false)
+      } else {
+        this.$set(this.quesList[index], 'showResult', true)
+      }
+    },
+    toSubmit (item, index) {
+      const myAnswer = item.correct
+      const quesCorrect = item.answer
+      console.log('测试-', !myAnswer)
+      if (!myAnswer) {
+        this.$message.error('请选择');
+        return;
+      }
+      if (item.qtype === '1' || item.qtype === '3') {
+        if (myAnswer === quesCorrect) {
+          this.$message({
+            message: '恭喜你，回答正确',
+            type: 'success'
+          });
+        } else {
+          this.$message.error('错了哦');
+        }
+      }
+      if (item.qtype === '2') {
+        const isRight = myAnswer.every(item => quesCorrect.includes(item))
+        if (isRight) {
+          this.$message({
+            message: '恭喜你，回答正确',
+            type: 'success'
+          });
+        } else {
+          this.$message.error('错了哦');
+        }
+      }
+    },
+    toRandom () {
+      const arr = quesAll
+      const randomIndex = Math.floor(Math.random() * arr.length);
+      this.quesList = [{...{}, ...arr[randomIndex]}];
+    }
+  }
+})
+
 console.log(ques1)
 // document.body = ques1
 </script>
