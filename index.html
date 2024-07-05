@@ -69,7 +69,7 @@
 import ques1 from './short-001.js'
 import ques2 from './short-002.js'
 import ques3 from './short-003.js'
-const quesAll = [...ques1, ...ques2, ...ques3]
+const quesAll = [...ques1, ...ques2, ...ques3].filter(item => item.qtype === '1' || item.qtype === '3')
 new Vue({
   el: '#app',
   data: function() {
